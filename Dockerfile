@@ -13,10 +13,3 @@ WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]
-```
-
----
-
-Commit karo → Render **build logs** mein dekhna — ek line aayegi:
-```
-BOOT-INF/classes/application.properties
