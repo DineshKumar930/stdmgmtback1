@@ -11,7 +11,7 @@ import com.nit.dk.service.AdminService;
 
 @RestController
 @RequestMapping("/api/admin")
-@CrossOrigin(origins = "*")
+
 public class AuthController {
 
     @Autowired
